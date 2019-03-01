@@ -1,6 +1,6 @@
 {
   "name": "network-engine",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/viktorpts/network-engine/issues"
   },
-  "homepage": "https://github.com/viktorpts/network-engine#readme"
+  "homepage": "https://github.com/viktorpts/network-engine#readme",
+  "devDependencies": {
+    "socket.io": "2.2.0"
+  }
 }
