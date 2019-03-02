@@ -1,23 +1,31 @@
 {
-  "name": "network-engine",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/viktorpts/network-engine.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/viktorpts/network-engine/issues"
-  },
-  "homepage": "https://github.com/viktorpts/network-engine#readme",
-  "devDependencies": {
-    "socket.io": "2.2.0"
-  }
+    "name": "network-engine",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "start": "tsc && node ./dist/index.js",
+        "test": "mocha tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/viktorpts/network-engine.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/viktorpts/network-engine/issues"
+    },
+    "homepage": "https://github.com/viktorpts/network-engine#readme",
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "6.0.2",
+        "socket.io": "2.2.0"
+    },
+    "dependencies": {
+        "@types/node": "^11.10.4"
+    }
 }
