@@ -23,7 +23,7 @@
     "devDependencies": {
         "chai": "^4.2.0",
         "mocha": "6.0.2",
-        "socket.io": "2.2.0"
+        "socket.io": "2.4.0"
     },
     "dependencies": {
         "@types/node": "^11.10.4"
